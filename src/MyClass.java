@@ -11,7 +11,7 @@ public class MyClass {
     }
 
     public  static void main(String[] args){
-        sayHello("Anton");
+        sayHello("Anton ");
         int x = calc_sum(999,52);
         System.out.println(x);
 
@@ -23,8 +23,8 @@ public class MyClass {
         tCless2.Set_attribute_1(2);
         ///tCless2.Set_attribute_2(" bbbb");
 
-        tClass1.test_metod("asas");
-        tCless2.test_metod("2222");
+        tClass1.test_metod("asas"); //
+        tCless2.test_metod("333");
 
     }
 }
